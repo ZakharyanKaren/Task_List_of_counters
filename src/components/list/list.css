@@ -1,0 +1,10 @@
+.itemsWrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 14px;
+}
+
+.counterWrapper {
+  display: flex;
+  column-gap: 8px;
+}
