@@ -3,11 +3,11 @@ import { useDispatch } from "react-redux";
 import { increment } from "../../features/counter/counterSlice";
 import { ITechSpecialist } from "../../types/types";
 import "./list.css";
-
 interface Props {
   list: ITechSpecialist;
   sectionId: number;
 }
+
 const List: React.FC<Props> = React.memo(
   ({ list, sectionId }) => {
     const dispatch = useDispatch();

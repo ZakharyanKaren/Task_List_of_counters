@@ -8,7 +8,6 @@ const MyPage = () => {
   const specialistsData: ITechSpecialistsData[] = useSelector(
     selectSpecialistsData
   );
-
   return (
     <div>
       <div className="techDataWrapper">
